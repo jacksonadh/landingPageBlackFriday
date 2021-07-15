@@ -7,8 +7,7 @@ import './styles/global.scss'
 
 ReactDOM.render(
   <React.StrictMode>
-    {/*<App />*/}
-    <Home />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
