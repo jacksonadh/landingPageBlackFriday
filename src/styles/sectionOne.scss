@@ -1,0 +1,32 @@
+.content {
+  display:flex;
+  margin: auto;
+  margin-top: 2.9rem;
+  align-items: center;
+  
+ 
+  .form {
+    
+    margin-right: auto;
+
+    h2 {
+      text-align: left;
+    }
+
+    span {
+      display: block;
+    }
+  }
+}
+
+.box {
+  width: 2%;
+  float: left;
+  height: 150px;
+  margin-left: 1%;
+ }
+ 
+ .linha-vertical {
+  border-left: 2px solid;
+  box-sizing: border-box;
+ }

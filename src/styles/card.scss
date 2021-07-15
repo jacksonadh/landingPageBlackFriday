@@ -1,0 +1,15 @@
+.card {
+  display: flex;
+  margin: auto 0.5rem;
+    .camisa {
+      width: 330px;
+      height: 400px;
+      object-fit: cover;
+    }
+
+    .quadro {
+      width: 920px;
+      height: 600px;
+      object-fit: cover;
+    }
+}

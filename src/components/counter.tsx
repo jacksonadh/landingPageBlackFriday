@@ -1,9 +1,14 @@
 import '../styles/counter.scss'
-export default function Counter() {
+type counterProps = {
+  textConter: string;
+  textDia: string;
+
+}
+export default function Counter(props: counterProps) {
   return (
     <div className="counter">
-      <h2>35</h2>
-      <p>Dias</p>
+      <h2>{props.textConter}</h2>
+      <p>{props.textDia}</p>
     </div>
   )
 }
