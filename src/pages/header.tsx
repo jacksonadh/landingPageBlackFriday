@@ -1,5 +1,5 @@
 import '../styles/home.scss'
-import logo from '../assets/images/logoHorizontalBranca.png'
+import logo from '../assets/images/logo/logoHorizontalBranca.png'
 export default function Header() {
   return (
     <div className="header">

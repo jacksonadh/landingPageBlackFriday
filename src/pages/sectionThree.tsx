@@ -1,40 +1,52 @@
 import Card from "../components/card";
-import sala from "../assets/images/Sala.png"
+import ArteQuadros from "../assets/images/quadro/ArteQuadros.png"
+import Quadro1 from "../assets/images/quadro/Quadro1.png"
+import Quadro2 from "../assets/images/quadro/Quadro2.png"
+import Quadro3 from "../assets/images/quadro/Quadro3.png"
+import Quadro4 from "../assets/images/quadro/Quadro4.png"
 import "../styles/card.scss"
 
 export default function SectionThree() {
   return (
-    <div className="card">
+    <div className="contentQuadro">
       <aside>
         <Card
-          src={sala}
+          src={ArteQuadros}
           alt="Quadros posicionados na sala"
           className="quadro"
         />
       </aside>
-      <div className="cardInfo">
-        <Card
-          src={sala}
-          alt=""
-          className="info"
-        />
-        <Card
-          src={sala}
-          alt=""
-          className="info"
-        />
-        <>
+      <div className="card cardQuadro">
+
+        <div className="cardInfo">
+          <div className="quadroTitulo">
+            <h2>Escolha o seu quadro favorito e decore a sua casa</h2>
+          </div>
           <Card
-            src={sala}
+            src={Quadro1}
             alt=""
             className="info"
           />
           <Card
-            src={sala}
+            src={Quadro2}
             alt=""
             className="info"
           />
-        </>
+          <>
+            <Card
+              src={Quadro3}
+              alt=""
+              className="info"
+            />
+            <p className="info">Quadros com excelente qualidade</p>
+            <Card
+              src={Quadro4}
+              alt=""
+              className="info"
+            />
+            <p className="info">Escolha com Moldura ou em PVC</p>
+          </>
+        </div>
       </div>
     </div>
   )

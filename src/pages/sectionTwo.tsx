@@ -1,7 +1,7 @@
 import Card from '../components/card';
-import camisaCasal from '../assets/images/CasalSNK.png';
-import masculina from '../assets/images/FilhoDoNordeste.png';
-import feminina from '../assets/images/CamisaFemininaViuva.png';
+import camisaCasal from '../assets/images/camisa/CasalSNK.png';
+import masculina from '../assets/images/camisa/FilhoDoNordeste.png';
+import feminina from '../assets/images/camisa/CamisaFemininaViuva.png';
 import '../styles/sectionTwo.scss';
 
 
