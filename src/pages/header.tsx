@@ -1,6 +1,6 @@
 import '../styles/home.scss'
 import logo from '../assets/images/logoHorizontalBranca.png'
-export default function Home() {
+export default function Header() {
   return (
     <div className="header">
       <img src={logo} alt="Logo da loja Ei Isy Art" />

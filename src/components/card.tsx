@@ -1,5 +1,6 @@
 import "../styles/card.scss"
 
+
 type cardProps = {
   src: string;
   alt: string;
@@ -12,7 +13,7 @@ export default function Card(props: cardProps) {
       <img
         src={props.src}
         alt={props.alt}
-        className="camisa"
+        className={props.className}
       />
     </div>
   )
