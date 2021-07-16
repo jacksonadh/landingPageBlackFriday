@@ -1,5 +1,6 @@
 import '../styles/counter.scss'
 type counterProps = {
+  id: string;
   textConter: string;
   textDia: string;
 

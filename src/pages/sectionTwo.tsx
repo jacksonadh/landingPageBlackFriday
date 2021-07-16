@@ -3,6 +3,7 @@ import camisaCasal from '../assets/images/camisa/CasalSNK.png';
 import masculina from '../assets/images/camisa/FilhoDoNordeste.png';
 import feminina from '../assets/images/camisa/CamisaFemininaViuva.png';
 import '../styles/sectionTwo.scss';
+import Oferta from '../components/oferta';
 
 
 export default function SectionTwo() {
@@ -15,21 +16,30 @@ export default function SectionTwo() {
       <div className="contentSectionTwo">
 
         <div className="card">
-          <Card
-            src={camisaCasal}
-            alt="camisa de casal do anime Atack on titan"
-            className="camisa"
-          />
-          <Card
-            src={feminina}
-            alt="camisa de casal do anime Atack on titan"
-            className="camisa"
-          />
-          <Card
-            src={masculina}
-            alt="camisa de casal do anime Atack on titan"
-            className="camisa"
-          />
+          <div className="card">
+            <Oferta text="50%" />
+            <Card
+              src={camisaCasal}
+              alt="camisa de casal do anime Atack on titan"
+              className="camisa"
+            />
+          </div>
+          <div className="card">
+            <Oferta text="60%" />
+            <Card
+              src={feminina}
+              alt="camisa de casal do anime Atack on titan"
+              className="camisa"
+            />
+          </div>
+          <div className="card">
+            <Oferta text="45%" />
+            <Card
+              src={masculina}
+              alt="camisa de casal do anime Atack on titan"
+              className="camisa"
+            />
+          </div>
         </div>
       </div>
     </>
