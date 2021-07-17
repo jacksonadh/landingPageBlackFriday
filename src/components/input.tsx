@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import '../styles/input.scss';
 
-
 export default function Input() {
   const [email, setEmail] = useState("")
   const armazenar = (chave: string, email: string) => {
     localStorage.setItem(chave, email)
+    window.alert("Cadastro efetuado com sucesso!")
   }
   return (
 

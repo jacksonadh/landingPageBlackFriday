@@ -6,10 +6,10 @@ export default function SectionOne() {
   return (
     <div className="content">
       <div className="contador">
-        <Counter id="dias" textConter="155" textDia="Dias" />
-        <Counter id="horas" textConter="23" textDia="Horas" />
-        <Counter id="minutos" textConter="55" textDia="Minutos" />
-        <Counter id="segundos" textConter="12" textDia="Segundos" />
+        <Counter data-time textCounter="155" textDia="Dias" />
+        <Counter data-time textCounter="23" textDia="Horas" />
+        <Counter data-time textCounter="55" textDia="Minutos" />
+        <Counter data-time textCounter="12" textDia="Segundos" />
       </div>
       <div className="box">
         <div className="box linha-vertical">

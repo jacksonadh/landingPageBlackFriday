@@ -8,4 +8,12 @@ button {
   margin-left: 0.4rem;
   width: 6rem;
   cursor: pointer;
+  background: #B70000;
+  color: #fff;
+  border-radius: 0.2rem;
+  border-color: #B70000;
+ 
+  &:hover {
+    opacity: 0.7;
+  } 
 }
