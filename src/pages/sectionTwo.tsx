@@ -8,7 +8,7 @@ import Oferta from '../components/oferta';
 
 export default function SectionTwo() {
   return (
-    <>
+    <div className="sectionTwo">
       <div className="tituloSection">
         <h2>TOP OFERTAS</h2>
         <p>Pegue os melhores anúncios! E encontre as ofertas do seu gosto e comece a economizar!</p>
@@ -42,6 +42,6 @@ export default function SectionTwo() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
