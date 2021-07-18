@@ -1,9 +1,6 @@
 import '../styles/counter.scss'
 import Countdown from '../services/countdown';
 
-
-
-
 type counterProps = {
   textCounter: string;
   textDia: string;
@@ -22,7 +19,7 @@ export default function Counter(props: counterProps) {
   setInterval(mostrarTempo, 1000);
   return (
     <div className="counter">
-      <h2 data-time>{props.textCounter}</h2>
+      <h2 data-time >{props.textCounter}</h2>
       <p>{props.textDia}</p>
     </div>
   )
